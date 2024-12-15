@@ -15,5 +15,6 @@ namespace EntityLayer.Concrete
         public string AzeWord { get; set; }
         public string AlternativeAzeWords { get; set; }
         public string AlternativeEngWords { get; set; }
+        public bool Status { get; set; }
     }
 }
