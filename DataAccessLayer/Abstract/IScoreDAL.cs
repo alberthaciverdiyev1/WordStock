@@ -7,9 +7,8 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Abstract
 {
-    public interface IScoreDAL
+    public interface IScoreDAL:IGenericDaL<Score>
     {
-        void Insert(Score score);
-        List<Score> GetScores();
+     
     }
 }

@@ -7,9 +7,8 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Abstract
 {
-    public interface IStatisticDAL
+    public interface IStatisticDAL:IGenericDaL<Statistic>
     {
-        void Insert(Statistic statistic);
-        List<Statistic> getList();
+
     }
 }
